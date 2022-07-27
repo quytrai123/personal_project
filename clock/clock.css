@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    flex-wrap: nowrap;
+    background-color: black;
+}
+#time {
+    color: #ff3333;
+    text-align: center;
+    background-color: rgb(8, 245, 115);
+    padding: 80px;
+}
+#clock {
+    color: aqua;
+    text-align: center;
+    background-color: black;
+    padding: 252px;
+}
+@media(max-width: 800px) {
+    #clock {
+        padding: 250px 100px 200px 60px;
+    }
+}

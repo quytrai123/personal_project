@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>clock</title>
+    <link rel="stylesheet" href="clock.css">
+</head>  
+<body onload="clock()">
+<script>
+    function clock() {
+        const date = new Date()
+        var gio = date.getHours()
+        var phut = date.getMinutes()
+        var giay = date.getSeconds()
+        var time = " pm"
+        if (giay < 10) {
+            giay = "0"+String(giay)
+        }
+        if (phut < 10) {
+            phut = "0"+String(phut)
+        }
+        if (gio < 12) {
+            time = " am"
+            if (gio == 12) {
+                if (giay == 0) {
+                    time = " am"
+                }
+            }
+        }
+        document.getElementById('clock').innerHTML =  gio + ":" + phut + ":" + giay+" "+ time
+        setTimeout(clock, 1000)
+    }
+</script>
+<h1 id="time">Giờ Việt Nam</h1>
+<h1 id="clock"></h1>
+<h1 id="space"> </h1>
+</body>
+</html>

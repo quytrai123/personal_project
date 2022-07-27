@@ -1,0 +1,574 @@
+#fptshop {
+    margin: 0;
+    background-color: brown;
+    color:red;
+    text-align: center;
+    margin: 0px 242px 0px 215px;
+}
+nav {
+    background-color: green;
+    padding: 10px;
+    text-align: center;
+    margin: 0px 242px 0px 215px;
+}
+nav a{
+	text-decoration: none;
+    background-color: gray;
+    color: blue;
+    padding: 10px;
+}
+#sale {
+    position:absolute;
+    background-color: black;
+    right: 250px;
+}
+* {
+    background-color: azure;
+}
+#dienthoai {
+    background-color: red;
+    position:absolute;
+    top: 370px;
+    left: 630px;
+}
+#phone {
+    background-color: rgb(227, 234, 254);
+    margin: 0px 10px 0px 350px;
+    padding: 100px 10px 40px 10px;
+}
+#laptop {
+    background-color: rgb(227, 234, 254);
+    padding: 100px 10px 40px 10px;
+}
+#laptop1 {
+    background-color: red;
+    position:absolute;
+    top: 370px;
+    left: 830px;
+}
+#laptop:hover{
+    background-color: gray;
+}
+#phone:hover{
+    background-color: gray;
+}
+#dacquyen{
+    padding: 0px 242px 0px 215px;
+    margin: 0px 0px -10px 0px;
+}
+#khuyenmai{
+    background-color: red;
+    color: brown;
+    padding: 5px;
+    text-align: center;
+    margin: 0px 242px 0px 215px;
+}
+#phoneandlaptop{
+    background-color: greenyellow;
+    padding: 8px 0px 40px 0px;
+    margin: -22px 242px -55px 215px;
+}
+#cucgachall{
+    background-color: floralwhite;
+    margin: 0px 242px 0px 215px;
+    padding: 0px 0px 50px 0px;
+    text-align: center;
+}
+#phonedamua{
+    background-color: black;
+    text-align: center;
+    padding: 0px 0px 40px 0px;
+}
+#phone1{
+    margin: 0px 5px 0px 0px;
+}
+#giaphone1{
+    background-color: red;
+    margin: 0px;
+    color: greenyellow;
+    position:absolute;
+    right: 915px;
+    top: 150px;
+}
+#giaphone2{
+    background-color: red;
+    margin: 0px;
+    color: greenyellow;
+    position:absolute;
+    right: 740px;
+    top: 150px;
+}
+#giaphone3{
+    background-color: red;
+    margin: 0px;
+    color: greenyellow;
+    position:absolute;
+    right: 540px;
+    top: 150px;
+}
+#laptopdamua{
+    background-color: black;
+    text-align: center;
+    padding: 0px 0px 40px 0px;
+}
+#gialaptop1{
+    background-color: red;
+    margin: 0px;
+    color: greenyellow;
+    position:absolute;
+    right: 915px;
+    top: 150px;
+}
+#gialaptop2{
+    background-color: red;
+    margin: 0px;
+    color: greenyellow;
+    position:absolute;
+    right: 740px;
+    top: 150px;
+}
+#gialaptop3{
+    background-color: red;
+    margin: 0px;
+    color: greenyellow;
+    position:absolute;
+    right: 540px;
+    top: 150px;
+}
+#laptop2{
+    margin: 0px 5px 0px 0px;
+}
+
+#dacquyendamua{
+    background-color: black;
+    text-align: center;
+    padding: 0px 0px 40px 0px;
+}
+#giadacquyen1{
+    background-color: red;
+    margin: 0px;
+    color: greenyellow;
+    position:absolute;
+    right: 875px;
+    top: 210px;
+}
+#giadacquyen2{
+    background-color: red;
+    margin: 0px;
+    color: greenyellow;
+    position:absolute;
+    right: 600px;
+    top: 210px;
+}
+#dacquyen1{
+    margin: 0px 5px 0px 0px;
+}
+#giacucgach1{
+    background-color: blue;
+    color: azure;
+    position:absolute;
+    right: 730px;
+    top: 860px;
+}
+#giacucgach2{
+    background-color: blue;
+    color: azure;
+    position:absolute;
+    right: 1000px;
+    top: 860px;
+}
+#giacucgach3{
+    background-color: blue;
+    color: azure;
+    position:absolute;
+    right: 460px;
+    top: 860px;
+}
+#cucgach1{
+    margin: 0px 5px 0px 0px;
+}
+#cucgach2{
+    margin: 0px 5px 0px 0px;
+}
+#gameshop{
+    margin: 0px 0px 0px 215px;
+}
+#sieuqua{
+    background-color: aqua;
+    color:brown;
+    text-align: center;
+    margin: 0px 225px 0px 215px;
+}
+#caothu{
+    margin: 0px 0px 0px 215px;
+}
+#®{
+    background-color:chocolate;
+    color:darkolivegreen;
+    text-align: center;
+    margin: 0px 225px 0px 215px;
+}
+#laptopfptall{
+    background-color: beige;
+    margin: 0px 225px 0px 215px;
+    padding: 0px 0px 50px 0px;
+    text-align: center;
+}
+#laptopfpt1{
+    margin: 0px 5px 0px 0px;
+}
+#laptopfpt2{
+    margin: 0px 5px 0px 0px;
+}
+#gialaptopfpt1{
+    background-color: coral;
+    color: blue;
+    position:absolute;
+    right: 930px;
+    top: 1192px;
+}
+#gialaptopfpt2{
+    background-color: coral;
+    color: blue;
+    position:absolute;
+    right: 730px;
+    top: 1192px;
+}
+#gialaptopfpt3{
+    background-color: coral;
+    color: blue;
+    position:absolute;
+    right: 520px;
+    top: 1192px;
+}
+#sieusalecuoituan{
+    margin: 0px 242px 0px 215px;
+    background-color: black;
+}
+#dienthoainoibat{
+    margin: 0px 242px 0px 215px;
+    background-color:darkslategrey  ;
+    color: cornflowerblue;
+    text-align: center;
+    padding: 5px 0px;
+}
+#noibatall{
+    margin: 0px 242px 0px 215px;
+    background-color: darkcyan;
+    text-align: center;
+    padding: 0px 0px 50px 0px;
+}
+#noibat1{
+    margin: 0px 5px 0px 0px;
+}
+#noibat2{
+    margin: 0px 5px 0px 0px;
+}
+#gianoibat1{
+    background-color:darkgray;
+    color: darkgreen;
+    position:absolute;
+    right: 730px;
+    top: 1550px;
+}
+#gianoibat2{
+    background-color:darkgray;
+    color: darkgreen;
+    position:absolute;
+    right: 960px;
+    top: 1550px;
+}
+#gianoibat3{
+    background-color:darkgray;
+    color: darkgreen;
+    position:absolute;
+    right: 500px;
+    top: 1550px;
+}
+#sieutot{
+    margin: 0px 242px 0px 215px;
+}
+#wifitab{
+    background-color:cornflowerblue;
+    color: aquamarine;
+    padding: 5px;
+    text-align: center;
+    margin: 0px 242px 0px 215px;
+}
+#phonewifi{
+    margin: 0px 242px 0px 215px;
+    background-color: black;
+    text-align: center;
+    padding: 0px 0px 120px 0px;
+}
+#giawifiphone{
+    background-color: coral;
+    color: darkgreen;
+    position:absolute;
+    right: 720px;
+    top: 260px;
+}
+#muangaywifi{
+    background-color: red;
+    color: floralwhite;
+    padding: 10px;
+    position:absolute;
+    right: 715px;
+    top: 300px;
+}
+#laptopchay{
+    margin: 0px 242px 0px 215px;
+    background-color:darkblue;
+    color:cornsilk;
+    text-align: center;
+    padding: 5px 0px;
+}
+#laptopbanchayall{
+    background-color: cornflowerblue;
+    margin: 0px 242px 0px 215px;
+    padding: 0px 0px 45px 0px;
+    text-align: center;
+}
+#laptopbanchay1{
+    margin: 0px 5px 0px 0px;
+}
+#laptopbanchay2{
+    margin: 0px 5px 0px 0px;
+}
+#gialaptopbanchay1{
+    background-color: aquamarine;
+    color:black;
+    position:absolute;
+    right: 960px;
+    top: 2025px;
+}
+#gialaptopbanchay2{
+    background-color: aquamarine;
+    color:black;
+    position:absolute;
+    right: 730px;
+    top: 2025px;
+}
+#gialaptopbanchay3{
+    background-color: aquamarine;
+    color:black;
+    position:absolute;
+    right: 520px;
+    top: 2025px;
+}
+#donghomaster{
+    margin: 0px 242px 0px 215px;
+}
+#donghomasteranhall{
+    margin: 0px 242px 0px 215px;
+    background-color: darkcyan;
+    text-align: center;
+    padding: 0px 0px 45px 0px;
+}
+#donghomasteranh1{
+    margin: 0px 5px 0px 0px;
+}
+#donghomasteranh2{
+    margin: 0px 5px 0px 0px;
+}
+#giadonghomasteranh1{
+    background-color: blueviolet;
+    color:cyan;
+    position:absolute;
+    right: 960px;
+    top: 230px;
+}
+#giadonghomasteranh2{
+    background-color: blueviolet;
+    color:cyan;
+    position:absolute;
+    right: 740px;
+    top: 230px;
+}
+#giadonghomasteranh3{
+    background-color: blueviolet;
+    color:cyan;
+    position:absolute;
+    right: 530px;
+    top: 230px;
+}
+#tabletgiam{
+    background-color: chartreuse;
+    color: darkcyan;
+    padding: 5px 0px;
+    margin: 0px 242px 0px 215px;
+    text-align: center;
+}
+#tabletall{
+    background-color: darkseagreen;
+    padding: 0px 0px 40px 0px;
+    margin: 0px 242px 0px 215px;
+    text-align: center;
+}
+#giatablet1{
+    background-color: darkgreen;
+    color:darkseagreen;
+    position:absolute;
+    right: 950px;
+    top: 2495px;
+}
+#giatablet2{
+    background-color: darkgreen;
+    color:darkseagreen;
+    position:absolute;
+    right: 735px;
+    top: 2495px;
+}
+#giatablet3{
+    background-color: darkgreen;
+    color:darkseagreen;
+    position:absolute;
+    right: 510px;
+    top: 2495px;
+}
+#galaxywatch4{
+    margin: 0px 242px 0px 215px;
+}
+#donghosamsungall{
+    margin: 0px 242px 0px 215px;
+    background-color: chocolate;
+    text-align: center;
+    padding: 0px 0px 40px 0px;
+}
+#donghosamsung1{
+    margin: 0px 5px 0px 0px;
+}
+#donghosamsung2{
+    margin: 0px 5px 0px 0px;
+}
+#samsung1{
+    background-color: burlywood;
+    color: crimson;
+    position:absolute;
+    right: 510px;
+    top: 225px;
+}
+#samsung2{
+    background-color: burlywood;
+    color: crimson;
+    position:absolute;
+    right: 735px;
+    top: 225px;
+}
+#samsung3{
+    background-color: burlywood;
+    color: crimson;
+    position:absolute;
+    right: 950px;
+    top: 225px;
+}
+#phukien{
+    background-color: darkgrey;
+    color: darkgoldenrod;
+    margin: 0px 242px 0px 215px;
+    padding: 5px 0px;
+    text-align: center;
+}
+#phukienhot{
+    background-color:aquamarine;
+    padding: 8px 0px 40px 0px;
+    margin: 0px 242px 0px 215px;
+}
+#thenho{
+    background-color: rgb(227, 234, 254);
+    margin: 0px 10px 0px 350px;
+    padding: 100px 10px 40px 10px;
+}
+#phukienapple{
+    background-color: rgb(227, 234, 254);
+    padding: 100px 10px 40px 10px;
+}
+#thenho:hover{
+    background-color: gray;
+}
+#phukienapple:hover{
+    background-color: gray;
+}
+#the{
+    background-color:cadetblue;
+    color: cyan;
+    position:absolute;
+    left: 640px;
+    top: 2885px;
+}
+#apple{
+    background-color:cadetblue;
+    color: cyan;
+    position:absolute;
+    left: 810px;
+    top: 2885px;
+}
+#phukienappleall{
+    background-color: cadetblue;
+    text-align: center;
+    margin: 0px 242px 0px 215px;
+    padding: 0px 0px 45px 0px;
+}
+#phukienapple1{
+    margin: 0px 5px 0px 0px;
+}
+#phukienapple2{
+    margin: 0px 5px 0px 0px;
+}
+#giaphukienapple1{
+    background-color: aqua;
+    color:blueviolet;
+    position:absolute;
+    right: 965px;
+    top: 230px;
+}
+#giaphukienapple2{
+    background-color: aqua;
+    color:blueviolet;
+    position:absolute;
+    right: 750px;
+    top: 230px;
+}
+#giaphukienapple3{
+    background-color: aqua;
+    color:blueviolet;
+    position:absolute;
+    right: 530px;
+    top: 230px;
+}
+#thenhoall{
+    margin: 0px 242px 0px 215px;
+    background-color:darkseagreen;
+    text-align: center;
+    padding: 0px 0px 45px 0px;
+}
+#thenho1{
+    margin: 0px 5px 0px 0px;
+}
+#thenho2{
+    margin: 0px 5px 0px 0px;
+}
+#giathenho1{
+    background-color: deepskyblue;
+    color: rgb(80, 107, 158);
+    position:absolute;
+    right: 530px;
+    top: 230px;
+}
+#giathenho2{
+    background-color: deepskyblue;
+    color: rgb(80, 107, 158);
+    position:absolute;
+    right: 750px;
+    top: 230px;
+}
+#giathenho3{
+    background-color: deepskyblue;
+    color: rgb(80, 107, 158);
+    position:absolute;
+    right: 965px;
+    top: 230px;
+}
+#chuthich{
+    margin: -20px 242px 0px 215px;
+}

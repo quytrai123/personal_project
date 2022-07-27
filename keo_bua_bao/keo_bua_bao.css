@@ -1,0 +1,99 @@
+#you {
+    margin: 0;
+    background-color: cornflowerblue;
+    text-align: center;
+    color: aquamarine;
+    padding: 15px;
+}
+#keo {  
+    background-color: azure;
+    padding: 8px 20px;
+}
+#bua {
+    background-color: azure;
+    padding: 8px 20px;
+}
+#bao {
+    background-color: azure;
+    padding: 8px 20px;
+}
+nav {
+    background-color: black;
+    text-align: center;
+}
+#keo:hover {
+    background-color: rgb(0, 255, 0);
+}
+#bua:hover {
+    background-color: rgb(0, 255, 0);
+}
+#bao:hover {
+    background-color: rgb(0, 255, 0);
+}
+#computer {
+    margin: 0;
+    background-color: aqua;
+    color: rgb(3, 3, 241);
+    text-align: center;
+    padding: 15px;
+}
+#keo1 {  
+    background-color: azure;
+    padding: 8px 20px;
+}
+#bua1 {
+    background-color: azure;
+    padding: 8px 20px;
+}
+#bao1 {
+    background-color: azure;
+    padding: 8px 20px;
+}
+nav {
+    background-color: black;
+    text-align: center;
+}
+#keo1:hover {
+    background-color: rgb(0, 255, 0);
+}
+#bua1:hover {
+    background-color: rgb(0, 255, 0);
+}
+#bao1:hover {
+    background-color: rgb(0, 255, 0);
+}
+#ket_qua {
+    margin: 0;
+    background-color: red;
+    text-align: center;
+}
+#ket_qua_vs {
+    margin:0;
+    background-color: blue;
+    text-align: center;
+}
+* {
+    background-color:deepskyblue;
+}
+#yourscore {
+    margin:0;
+    text-align: center;
+    background-color:crimson;
+    color: darkgray;
+}
+#score {
+    margin: 0;
+    background-color: crimson;
+    color: darkgray;
+}
+#computersscore {
+    margin:0;
+    text-align: center;
+    background-color:rgb(6, 233, 6);
+    color:cyan;
+}
+#score_computer {
+    margin: 0;
+    background-color:rgb(6, 233, 6);
+    color:cyan;
+}

@@ -1,0 +1,66 @@
+#signup{
+    width: 400px;
+    height: 275px;
+    position: absolute;
+    border-radius: 10px;
+    margin-top: -660px;
+    margin-left: 480px;
+}
+#sign{
+    padding: 10px;
+    color:cornflowerblue;
+}
+#name{
+    padding: 8px;
+    width: 355px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    color: black;
+}
+#email{
+    padding: 8px;
+    width: 355px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    color: black;
+}
+#password{
+    padding: 8px;
+    width: 355px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    color: black;
+}
+#sign_up{
+    text-decoration: none;
+    color: white;
+    background-color:dodgerblue;
+    padding: 16px 25px;
+    border-radius: 10px;
+    margin-left: 290px;
+    margin-top: 15px;
+    font-size: 15px;
+}
+#sign_up:hover{
+    background-color:chartreuse ;
+}
+#baophu{
+    background-color: rgba(255, 255, 255, 0.7);
+    margin: 0;
+    margin-top: -500px;
+    height: 500px;
+}
+#phu{
+    margin-top: -5px;
+}
+#exit{
+    text-decoration: none;
+    color: red;
+    font-size: 27px;
+    font-family: Arial;
+    position:absolute;
+    left: 1500px;
+}
+#exit:hover{
+    color: gray;
+}

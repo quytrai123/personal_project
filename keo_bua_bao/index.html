@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>keo_bua_bao</title>
+    <link rel="stylesheet" href="keo_bua_bao.css">
+</head>
+<body>
+    <h1 id="you">Bạn hãy chọn nút dưới đây để chơi kéo bua bao</h1>
+    <nav>
+        <input type="button" id="keo" value="keo" onclick="keo()"/>
+        <input type="button" id="bua" value="bua" onclick="bua()"/>
+        <input type="button" id="bao" value="bao" onclick="bao(score,score_computer )"/>
+    </nav>
+    <h1 id="computer">Máy tính sẽ chơi với bạn và máy tính chọn</h1>
+    <nav>
+        <input type="button" id="keo1" value="keo"/>
+        <input type="button" id="bua1" value="bua"/>
+        <input type="button" id="bao1" value="bao"/>
+    </nav>
+    <h1 id="ket_qua_vs"></h1>
+    <h1 id="ket_qua"></h1>
+    <h1 id="yourscore">Your Score: <span id="score">0</span></h1>
+    <h1 id="computersscore">Computer's Score: <span id="score_computer">0</span></h1>
+    <script>
+        var score = 0
+        var score_computer = 0
+        function keo() {
+            var keo_random = ["keo","bua","bao"]
+            var keo_ket_qua = keo_random[Math.floor(Math.random()*keo_random.length)]
+                        
+            if (keo_ket_qua=="keo") {
+                document.getElementById("ket_qua_vs").textContent = "Bạn chọn là: kéo vs Máy Tính chọn là: kéo"
+                document.getElementById("ket_qua").textContent = "Bạn và Máy Tính Hòa"
+            }
+            else if(keo_ket_qua=="bua") {
+                document.getElementById("ket_qua_vs").textContent = "Bạn chọn là: kéo vs Máy Tính chọn là: bua"
+                document.getElementById("ket_qua").textContent = "Máy Tính thắng bạn"
+                score_computer += 1
+            }
+            else {
+                document.getElementById("ket_qua_vs").textContent = "Bạn chọn là: kéo vs Máy Tính chọn là: bao"
+                document.getElementById("ket_qua").textContent = "Bạn thắng Máy Tính"
+                score += 1
+            }
+            document.getElementById("score").textContent = score
+            document.getElementById("score_computer").textContent = score_computer
+            return score_computer,score
+        }
+        function bua() {
+            var bua_random = ["keo","bua","bao"]
+            var bua_ket_qua = bua_random[Math.floor(Math.random()*bua_random.length)]
+            if (bua_ket_qua=="keo") {
+                document.getElementById("ket_qua_vs").textContent = "Bạn chọn là: bua vs Máy Tính chọn là: kéo"
+                document.getElementById("ket_qua").textContent = "Bạn thắng Máy Tính"
+                score+= 1
+            }
+            else if(bua_ket_qua=="bua") {
+                document.getElementById("ket_qua_vs").textContent = "Bạn chọn là: bua vs Máy Tính chọn là: bua"
+                document.getElementById("ket_qua").textContent = "Bạn và Máy Tính Hòa"
+            }
+            else {
+                document.getElementById("ket_qua_vs").textContent = "Bạn chọn là: bua vs Máy Tính chọn là: bao"
+                document.getElementById("ket_qua").textContent = "Máy Tính thắng bạn"
+                score_computer += 1
+            }
+            document.getElementById("score").textContent = score
+            document.getElementById("score_computer").textContent = score_computer
+            return score_computer,score
+        }
+        function bao() {
+            var bao_random = ["keo","bua","bao"]
+            var bao_ket_qua = bao_random[Math.floor(Math.random()*bao_random.length)]
+            if (bao_ket_qua=="keo") {
+                document.getElementById("ket_qua_vs").textContent = "Bạn chọn là: bao vs Máy Tính chọn là: kéo"
+                document.getElementById("ket_qua").textContent = "Máy Tính thắng bạn"
+                score_computer += 1
+            }
+            else if(bao_ket_qua=="bua") {
+                document.getElementById("ket_qua_vs").textContent = "Bạn chọn là: bao vs Máy Tính chọn là: bua"
+                document.getElementById("ket_qua").textContent = "Bạn thắng Máy Tính"
+                score+= 1
+            }
+            else {
+                document.getElementById("ket_qua_vs").textContent = "Bạn chọn là: bao vs Máy Tính chọn là: bao"
+                document.getElementById("ket_qua").textContent = "Bạn và Máy Tính Hòa"
+            }
+            document.getElementById("score").textContent = score
+            document.getElementById("score_computer").textContent = score_computer
+            return score_computer,score
+        }
+    </script>
+</body>
+</html>
