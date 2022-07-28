@@ -13,7 +13,7 @@
     color: aqua;
     text-align: center;
     background-color: black;
-    padding: 252px;
+    padding: 235px;
 }
 @media(max-width: 800px) {
     #clock {
